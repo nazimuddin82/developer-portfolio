@@ -49,6 +49,7 @@ h1 {
 .experiencce-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
 }
 
 .experience-item {
@@ -58,4 +59,17 @@ h1 {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 10px 10px 40px rgb(86, 87, 86);
+
+}
+
+#only-border {
+    border-left: 7px solid orangered;
+}
+
+#baby-border {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
